@@ -1,4 +1,4 @@
-# EEG100 Manifesto {. #main-title}
+# EEG Community framework {. #main-title}
 Toward a deontological framework for EEG science
 {. #subtitle }
 

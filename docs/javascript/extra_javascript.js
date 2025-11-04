@@ -1,6 +1,6 @@
 const { createClient } = supabase
-const supabase_url = "https://liycjkfzezooeydblbba.supabase.co"
-const supabase_key = "sb_publishable_MOA3h7uYACMC4icnrTuTSw_8R4Yljjb"
+const supabase_url = "https://gsdciyuqxcgkdqmbygci.supabase.co"
+const supabase_key = "sb_publishable_Tn-yHR4XPb2VMq58C6VtsQ_-jF7fVin"
 
 const _supabase = createClient(supabase_url, supabase_key);
 

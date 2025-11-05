@@ -1,3 +1,3 @@
-# EEG 100 Manifesto Draft website
+# EEG 101 Community Framework Draft website
 
 Built using MKDocs

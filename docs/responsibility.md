@@ -208,12 +208,15 @@ I commit to participating in changing the research evaluation to avoid focusing 
 ///
 
 ### Environmental responsibility
+
+Although EEG has a relatively low ecological impact in itself, it is part of a broader socio-technological system that has deleterious effects on the environment. It is our responsibility to carefully examine the impact of EEG research and weigh its benefits against its environmental costs, including the energy consumption of data processing, the production and disposal of electronic components, and the travel associated with global scientific collaboration.
+
 /// details | 3.4 Reconsidering Environmental Impact
     type: info 
     
-The scientific consensus is clear: human activity, including scientific research, profoundly affects Earth’s climate and resources—posing a serious threat to humanity’s future. Scientists, positioned at the forefront of knowledge, have a duty not just to document this crisis but also to alter their research practices accordingly ([Aron et al., 2020](references.md#Aron2020); [Racimo et al., 2022](references.md#Racimo2022); [Rae et al., 2022](references.md#Rae2022); [Urai & Kelly, 2023](references.md#Urai2023)). Although EEG and related neuroscience fields may appear less resource-intensive than many other domains, we are still part of a broader infrastructure that depends on finite materials, substantial energy, and complex global supply chains.
+The scientific consensus is clear: human activity, including scientific research, profoundly affects Earth’s climate and resources—posing a serious threat to humanity’s future. Scientists, positioned at the forefront of knowledge, have a duty not just to document this crisis but also to alter their research practices accordingly ([Aron et al., 2020](references.md#Aron2020); [Racimo et al., 2022](references.md#Racimo2022); [Rae et al., 2022b](references.md#Rae2022); [Urai & Kelly, 2023](references.md#Urai2023)). Although EEG and related neuroscience fields may appear less resource-intensive than many other domains, we are still part of a broader infrastructure that depends on finite materials, substantial energy, and complex global supply chains.
 
-Some lines of EEG research offer potential long-term benefits for human health and well-being, but they can also require high-performance computing, extensive travel, or large-scale distribution of equipment (e.g. in population neuroscience). Pursuing such work without critically evaluating, or even considering, environmental costs risks perpetuating a “do it because we can” mentality and may be untenable in the long run. Wider collaborations and resource sharing can lead to synergy effects that reduce the ecological footprint of large scale projects. Moreover, systemic pressures in academia, such as publication demands and grant requirements, may push researchers to pursue expansions in scope without equivalent scrutiny of environmental impact. Achieving genuine sustainability will require confronting these norms, ensuring that EEG studies are not only scientifically rigorous but also responsive to the realities of climate change and resource scarcity. 
+Some lines of EEG research offer potential long-term benefits for human health and well-being. However, they can also require high-performance computing, extensive travel, or large-scale distribution of equipment (e.g., in population neuroscience). Pursuing such work without critically evaluating, or even considering, environmental costs risks perpetuating a “do it because we can” mentality and may be untenable in the long run. Wider collaborations and resource sharing can lead to synergy effects that reduce the ecological footprint of large-scale projects. Moreover, systemic pressures in academia, such as publication demands and grant requirements, may push researchers to pursue scope expansions without equivalent environmental impact scrutiny. Achieving genuine sustainability will require confronting these norms, ensuring that EEG studies are scientifically rigorous and responsive to climate change and resource scarcity. 
 
 ///
 
@@ -240,7 +243,7 @@ I commit to consider the environmental impact of my lab and my research. I will 
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_4_3" class="data-input" />
-    remaining mindful of how academia’s incentive structures can undermine sustainability goals. I will strive to foster discussions, both within my lab and in broader networks, about rethinking these systemic norms.  
+    emaining mindful of how academia’s incentive structures can undermine sustainability goals. I will strive to foster discussions, both within my lab and in broader networks, about rethinking these systemic norms.  
   ///
   /// html | li
 
@@ -266,9 +269,9 @@ I commit to consider the environmental impact of my lab and my research. I will 
 /// details | 3.5 Measuring and reducing the environmental footprint of our work
     type: info 
 
-While EEG itself generally has a moderate ecological impact, the datasets involved can be very large, and the required storage and computational power used to support EEG sciences continue to expand. Moreover, we need to account for the broader environmental footprint of our professional activities (e.g., conference travel, institutional purchases, and overall infrastructure; see [Souter et al., 2024](references.md#Souter2024), for similar initiative in fMRI).
+While EEG itself generally has a moderate ecological impact, the datasets involved can be very large, and the required storage and computational power used to support EEG sciences continue to expand. Moreover, we need to account for the broader environmental footprint of our professional activities (e.g., conference travel, institutional purchases, and overall infrastructure; see ([Mariette et al., 2022](references.md#Mariette2022); [Souter et al., 2024](references.md#Souter2024); [Lannelongue et al., 2021](references.md#Lannelongue2021)), for similar initiative in fMRI).
 
-A key first step is to quantify this impact (see tools examples below). With that knowledge in hand, researchers can identify effective measures to reduce negative outcomes while preserving core scientific aims. However, rebound effects—where well-intentioned actions produce unintended harm—must be carefully monitored to ensure that measures to reduce our carbon footprint do not inadvertently lead to other adverse consequences
+A key first step is quantifying this impact (e.g., using apps.labos1point5.org). With that knowledge, researchers can identify practical measures to reduce adverse outcomes while preserving core scientific aims. However, rebound effects—where well-intentioned actions produce unintended harm—must be carefully monitored to ensure that measures to reduce our carbon footprint do not inadvertently lead to other adverse consequences.
 
 ///
 
@@ -305,12 +308,12 @@ I pledge to minimize the environmental impact of my research through sustainable
  /// html | li
 
    <input type='checkbox' checked name="pledge_3_5_5" class="data-input" />
-   evaluating the environmental impact of my laboratory and research projects by quantifying emissions, energy usage, and waste production through available tools, and use these evaluations to guide more sustainable practices in daily operations and long-term planning.  
+   evaluating the environmental impact of my laboratory and research projects by quantifying emissions, energy usage, and waste production through available tools, and using these evaluations to guide more sustainable practices in daily operations and long-term planning.  
  ///
  /// html | li
 
    <input type='checkbox' checked name="pledge_3_5_6" class="data-input" />
-   critically evaluating my own research projects and considering renouncing to run a project if it does not lead to foreseeable future benefits.
+   critically evaluating my own research projects and considering renouncing to run a project if it does not yield future benefits.
  ///
 
 ///
@@ -321,11 +324,11 @@ I pledge to minimize the environmental impact of my research through sustainable
 /// details | 3.6 Using research resources, equipment and data thoughtfully
     type: info 
     
-While non-invasive EEG often appears low-impact compared to more resource-intensive methods, individual projects can still consume substantial time, funding, and materials—particularly if their design is inefficient or redundant. Consequently, reviewing existing datasets and clarifying genuine methodological advances before embarking on new recordings are essential steps to ensure our collective use of participant time and laboratory resources remains both ethical and environmentally sound. By being judicious about data collection, we both respect our participants and optimize the use of laboratory, computational, and environmental resources.
+While non-invasive EEG often appears low-impact compared to more resource-intensive methods, individual projects can still consume substantial time, funding, and materials—particularly if their design is inefficient or redundant. Consequently, reviewing existing datasets and clarifying genuine methodological advances before embarking on new recordings are essential to ensure our collective use of participant time and laboratory resources remains ethical and environmentally sound. By being judicious about data collection, we respect our participants and optimize the use of laboratory, computational, and environmental resources.
 
-Further, the production and disposal of scientific equipment contribute significantly to pollution and waste. Encouraging **equipment pooling, and sharing**, or applying the 3Rs approach (“Reduce, Reuse, Recycle” [Marques & Fritzen Gomes, 2020](references.md#Marques2020)) in the lab can help reduce the demand for new devices and extend the lifespan of existing ones. By reducing resource usage and waste production, we not only lessen our environmental impact but also encourage a more collaborative and cost-effective research environment.
+Further, the production and disposal of scientific equipment contribute significantly to pollution and waste. Encouraging **equipment pooling, sharing**, or applying a 3Rs approach (“Reduce, Reuse, Recycle” [Marques & Fritzen Gomes, 2020](references.md#Marques2020)) in the lab can help reduce the demand for new devices and extend the lifespan of existing ones. By reducing resource usage and waste production, we not only lessen our environmental impact but also encourage a more collaborative and cost-effective research environment.
 
-Likewise, our field generates vast volumes of data, and we bear a responsibility to make sure they are fully utilized. Meta-analyses—where multiple teams aggregate already-collected datasets—also decrease resource usage, strengthen collaboration, and foster more reliable findings ([Koile & Cristia, 2021](references.md#Koile2021)). To facilitate sharing and reuse, it is essential to standardize data acquisition and analysis and to manage data according to the FAIR principles [(Wilkinson et al., 2016)](references.md#Wilkinson2016), ensuring that it remains Findable, Accessible, Interoperable, and Reusable (See also Section 1.2).
+Likewise, our field generates vast volumes of data, and we are responsible for ensuring they are fully utilized. Meta-analyses—where multiple teams aggregate already-collected datasets—also decrease resource usage, strengthen collaboration, and foster more reliable findings ([Koile & Cristia, 2021](references.md#Koile2021)). To facilitate sharing and reuse, it is essential to standardize data acquisition and analysis and to manage data according to the FAIR principles [(Wilkinson et al., 2016c)](references.md#Wilkinson2016), ensuring that it remains Findable, Accessible, Interoperable, and Reusable (See also Section 1.2).
 
 ///
 
@@ -334,7 +337,7 @@ Likewise, our field generates vast volumes of data, and we bear a responsibility
     open: True
 
 <input type='checkbox' checked id="cb-3-6" class="cb-sa" onchange="toggleCheckboxes(event)"/>
-I commit to foster a thoughtful use of resources, equipment and data, by:
+I commit to fostering a thoughtful use of resources, equipment and data, by:
 
 /// html | ul.tasklist
 
@@ -346,7 +349,7 @@ I commit to foster a thoughtful use of resources, equipment and data, by:
  /// html | li
 
    <input type='checkbox' checked name="pledge_3_6_2" class="data-input" />
-   contributing to collaborations across labs to share facilities and optimize resource utilization - from headsets to high performance clusters.  
+   contributing to collaborations across labs to share facilities and optimize resource utilization - from headsets to high-performance clusters.  
  ///
  /// html | li
 

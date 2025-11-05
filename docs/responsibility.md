@@ -1,8 +1,10 @@
 ## Responsibility: considering societal impacts, issues of equity, and sustainability. 
 
-EEG's non-invasive nature makes it a seemingly harmless technology, but beneath this benign facade lie complex questions that warrant careful consideration. The steady progress in neurotechnology makes it important to carefully examine the implications of foreseeable uses. Further, although technological advancement itself continually unlocks new possibilities, this very fact simultaneously shapes how we understand and inquire about the world, and should not obscure the original purpose of science. 
+EEG's non-invasive nature and relatively low cost make it a seemingly harmless technology, but beneath this benign facade lie complex questions that warrant careful consideration. The steady progress in neurotechnology makes it important to scrutinize the implications of foreseeable uses. Further, although technological advancement continually unlocks new possibilities, it simultaneously shapes how we understand and inquire about the world, and should not obscure the original purpose of science, namely to seek understanding rather than merely to enable control or commodification.
 
-EEG research typically uses relatively few consumables and less resource-intensive electronics than many other domains, making it seem innocuous by comparison. However, the growing affordability of EEG devices and their expansion into consumer markets could turn this advantage into a challenge if we overlook its broader impact and possible rebound effects. We share the responsibility of examining these wider implications—beyond our immediate scientific interests and practices—to encourage responsible use.
+EEG research typically uses relatively few consumables and less resource-intensive electronics than many other domains, making it seem innocuous by comparison. However, the growing affordability of EEG devices and their expansion into consumer markets could turn this advantage into a challenge if we overlook their broader impact and possible rebound effects.
+
+We are responsible for examining these broader implications—beyond our immediate scientific interests and practices—to encourage responsible use.
 
 ### Societal and technological responsibility
 
@@ -11,11 +13,11 @@ Applications of EEG research are potentially far reaching, and potential misuses
 /// details | 3.1. Ethical use of EEG
     type: info 
 
-Conversations around ethical accountability for scientific discoveries and their real-world applications have a long history, extending beyond the scientific community itself. Each research field faces distinct risks and benefits, and EEG is no exception. In particular, EEG has been explored for sensitive or potentially sensitive uses, such as detecting “concealed information” ([Farwell, 2012](references.md#Farwell2012); [Rosenfeld, 2005](references.md#Rosenfeld2005); [Wolpe et al., 2005](references.md#Wolpe2005)), enabling implicit interaction outside the participant’s awareness ([Fairclough, 2017](references.md#Fairclough2017); [Krol et al., 2020](references.md#Krol2020); [Zander et al., 2016](references.md#Zander2016)), and launching so-called “side-channel attacks” that decode private data like PIN codes [(Lange et al., 2018)](references.md#Lange2018). Together, these applications demonstrate the capacity of EEG to decode—and possibly influence—a person’s brain activity, heightening concerns about individual privacy [(Mecacci & Haselager, 2019)](references.md#Mecacci2019), mental integrity [(Ienca & Andorno, 2017)](references.md#Ienca2017), and broader social equity [(Hyman, 2011)](references.md#Hyman2011).
+Conversations around ethical accountability for scientific discoveries and real-world applications have a long history, extending beyond the scientific community. Each research field faces distinct risks and benefits, and EEG is no exception. In particular, EEG has been explored for sensitive or potentially sensitive uses, such as detecting “concealed information” ([Farwell, 2012](references.md#Farwell2012); [Rosenfeld, 2005](references.md#Rosenfeld2005); [Wolpe et al., 2005](references.md#Wolpe2005)), enabling implicit interaction outside the participant’s awareness ([Fairclough, 2017](references.md#Fairclough2017); [Krol et al., 2020](references.md#Krol2020); [Zander et al., 2016](references.md#Zander2016)), and launching so-called “side-channel attacks” that decode private data like PIN codes [(Lange et al., 2018)](references.md#Lange2018). Together, these applications demonstrate the capacity of EEG to decode—and possibly influence—a person’s brain activity, heightening concerns about individual privacy [(Mecacci & Haselager, 2019)](references.md#Mecacci2019), mental integrity [(Ienca & Andorno, 2017)](references.md#Ienca2017), and broader social equity [(Hyman, 2011)](references.md#Hyman2011).
 
-Researchers must carefully evaluate their work’s potential societal impacts, including how future developments may build on today’s findings. Although many EEG studies cite adherence to the Declaration of Helsinki, that document largely focuses on medical research, leaving gaps for more general EEG practices. Current legal discussions (e.g. [Muhl, 2024](references.md#Muhl2024); [Yuste, 2023](references.md#Yuste2023)) and best-practice recommendations [(Niso, Krol, et al., 2022)](references.md#Niso2022b) underscore the importance of addressing EEG-specific ethical considerations. Meanwhile, the increasing integration of ML/AI in EEG (e.g., automated signal classification, neural decoding) amplifies risks of inaccurate interpretations, overgeneralizations, and bias ([Birhane et al., 2024](references.md#Birhane2024); [Bolte & van Wynsberghe, 2024](references.md#Bolte2024)). Beyond the Declaration of Helsinki, therefore, researchers and developers of EEG-based neurotechnology should look both at more generic frameworks concerning the use of personal data, automated decision-making, and AI, and at more specific guidelines concerning aspects directly related to neurotechnology, like [neurorights](https://neurorightsfoundation.org/){:target="_blank"}. The former can guide the researcher, for example, in specifying verifiable quality criteria ahead of time and ensuring proper oversight, whereas the latter can aid in the evaluation of specific solutions, among other things.
+Researchers must carefully evaluate their work’s potential societal impacts, including how future developments may build on today’s findings. Although many EEG studies cite adherence to the Declaration of Helsinki, that document primarily focuses on medical research, leaving gaps for more general EEG practices. Current legal discussions (e.g. [Muhl, 2024](references.md#Muhl2024); [Yuste, 2023](references.md#Yuste2023)) and best-practice recommendations [(Niso, Krol, et al., 2022a)](references.md#Niso2022b) underscore the importance of addressing EEG-specific ethical considerations. Meanwhile, the increasing integration of ML/AI in EEG (e.g., automated signal classification, neural decoding) amplifies risks of inaccurate interpretations, overgeneralizations, and bias ([Birhane et al., 2024](references.md#Birhane2024); [Bolte & van Wynsberghe, 2024](references.md#Bolte2024)). Beyond the Declaration of Helsinki, therefore, researchers and developers of EEG-based neurotechnology should look both at more generic frameworks concerning the use of personal data, automated decision-making, and AI, and at more specific guidelines concerning aspects directly related to neurotechnology, like [neurorights](https://neurorightsfoundation.org/){:target="_blank"}. The former can guide the researcher, for example, in specifying verifiable quality criteria ahead of time and ensuring proper oversight. In contrast, the latter can aid in evaluating of specific solutions, among other things.
 
-A variety of organisations offer further guidance, both generic and specific. [UNESCO's reports on neurotechnology ethics](https://www.unesco.org/en/ethics-neurotech){:target="_blank"}  and the [OECD’s recommendations on responsible innovation in neurotechnology](https://legalinstruments.oecd.org/en/instruments/oecd-legal-0457){:target="_blank"} provide foundational strategies to safeguard privacy and autonomy, including in areas such as brain fingerprinting or generative AI [(Knoechel et al., 2024)](references.md#Knoechel2024). The [NeuroRights Foundation](https://neurorightsfoundation.org/){:target="_blank"} likewise advocates treating neural data as highly sensitive and recommends technical protections like encryption and differential privacy to avert misuse [(Yuste, 2023)](references.md#Yuste2023). Taken together, these measures illustrate the growing consensus that EEG researchers must proactively address both the near-term ethical challenges and the longer-term implications of their work.
+A variety of organisations offer further guidance, both generic and specific. [UNESCO's reports on neurotechnology ethics](https://www.unesco.org/en/ethics-neurotech){:target="_blank"}  and the [OECD’s recommendations on responsible innovation in neurotechnology](https://legalinstruments.oecd.org/en/instruments/oecd-legal-0457){:target="_blank"} provide foundational strategies to safeguard privacy and autonomy, including in areas such as brain fingerprinting or generative AI [(Knoechel et al., 2024)](references.md#Knoechel2024). The [NeuroRights Foundation](https://neurorightsfoundation.org/){:target="_blank"} advocates treating neural data as highly sensitive and recommends technical protections like encryption and differential privacy to avert misuse [(Yuste, 2023)](references.md#Yuste2023). Together, these measures illustrate the growing consensus that EEG researchers must proactively address the near-term ethical challenges and the longer-term implications of their work.
 
 ///
 
@@ -36,7 +38,7 @@ I commit to carefully consider the ethical implications of my research practice,
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_1_2" class="data-input" />
-    adhering to the CARE framework (Collective Benefit, Authority to Control, Responsibility, Ethics) [(Carroll et al., 2020)](references.md#Carroll2020), integrating these values in all relevant processes and collaborations.  
+    adhering to the CARE framework (Collective Benefit, Authority to Control, Responsibility, Ethics) [(Carroll et al., 2020b)](references.md#Carroll2020), integrating these values in all relevant processes and collaborations.  
   ///
   /// html | li
 
@@ -46,7 +48,7 @@ I commit to carefully consider the ethical implications of my research practice,
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_1_4" class="data-input" />
-    refraining from marketing or deploying neurotechnological products or services unless they are supported by robust, peer-reviewed evidence of safety and efficacy.  
+    refraining from marketing or deploying neurotechnological products or services unless supported by robust, peer-reviewed evidence of safety and efficacy.  
   ///
   /// html | li
 
@@ -56,22 +58,22 @@ I commit to carefully consider the ethical implications of my research practice,
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_1_6" class="data-input" />
-    educating colleagues and trainees about risks in hardware, software, modeling, and data interpretation, advocating for safe, fair, and sustainable neurotechnology.  
+    educating colleagues and trainees about hardware, software, modeling, and data interpretation risks, advocating for safe, fair, and sustainable neurotechnology.  
   ///
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_1_7" class="data-input" />
-    disclosing and minimizing any conflicts of interest, and will not endorse or profit from EEG products lacking evidence-based grounding.  
+    disclosing and minimizing conflicts of interest, and will not endorse or profit from EEG products lacking evidence-based grounding.  
   ///
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_1_8" class="data-input" />
-    not collecting EEG or neural data without explicit consent, nor pass them on to third parties or merge them with other data sources without proper authorization.  
+    not collecting EEG or neural data without explicit consent, nor passing them on to third parties or merging them with other data sources without proper authorization.  
   ///
   /// html | li
 
     <input type='checkbox' checked name="pledge_3_1_9" class="data-input" />
-    not contributing to the development of, or market any, neurotechnology whose main purpose is to circumvent a user’s control over their own information.  
+    not contributing to the development of, or market any, neurotechnology whose primary purpose is to circumvent a user’s control over their information.  
   ///
   /// html | li
 

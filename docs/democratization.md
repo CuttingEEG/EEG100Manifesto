@@ -127,9 +127,9 @@ I commit to support including more diverse populations in study samples. I will 
 /// details | 2.3. Accessibility of research outcomes
     type: info 
     
-Ensuring that research outcomes—whether new knowledge or potential applications—remain accessible to both the scientific community and the general public is a core ethical responsibility for public funded research. The rise of the open science movement has substantially advanced this goal, aided by open-source software and hardware, DIY (“do-it-yourself”) materials, open knowledge platforms (e.g., Wikipedia), open data repositories, open-access publications, and a wealth of instructional content on video platforms. Underpinned by legal frameworks (e.g., copyleft) and data use agreements that prevent misappropriation or misuse, these initiatives foster transparency and collaboration within clear regulatory boundaries.
+Ensuring that research outcomes—whether new knowledge or potential applications—remain accessible to the scientific community and the general public is a core ethical responsibility for publicly funded research. The rise of the open science movement has substantially advanced this goal, aided by open-source software and hardware, DIY (“do-it-yourself”) materials, open knowledge platforms (e.g., Wikipedia), open data repositories, open-access publications, and a wealth of instructional content on video platforms. Underpinned by legal frameworks (e.g., copyleft) and data use agreements that prevent misappropriation or misuse, these initiatives foster transparency and collaboration within clear regulatory boundaries.
 
-However, meaningful access must also address the **inverse care law**, by which those who most need healthcare—including improved brain health—are often least likely to receive it ([World Health Statistics](https://www.who.int/data/gho/publications/world-health-statistics){:target="_blank"}). Expanding access to research tools, knowledge, and resources can help reduce inequalities in care, as well as bolster participant diversity (see pledges 2.2) and promote equitable cross-community collaborations (see pledges 2.1). By prioritizing widespread availability, we can ensure that EEG research benefits the broadest spectrum of society, particularly those who stand to gain the most.
+However, meaningful access must also address the **inverse care law**, by which those needing healthcare—including improved brain health—are often least likely to receive it ([World Health Statistics](https://www.who.int/data/gho/publications/world-health-statistics){:target="_blank"}). Expanding access to research tools, knowledge, and resources can help reduce inequalities in care, bolster participant diversity (see pledges 2.2) and promote equitable cross-community collaborations (see pledges 2.1). By prioritizing widespread availability, we can ensure that EEG research benefits the broadest spectrum of society, particularly those who stand to gain the most.
 
 ///
 
@@ -156,7 +156,7 @@ I commit to promoting a wide use of my research for the scientific community, an
   /// html | li
 
     <input type='checkbox' checked name="pledge_2_3_3" class="data-input" />
-    using research results to inform policies and investments that target health inequalities and under-resourced areas, ensuring that EEG applications reach communities where they are needed most.
+    sing research results to inform policies and investments that target health inequalities and under-resourced areas, ensuring that EEG applications reach communities where they are needed most.
   ///
 
 ///

@@ -202,9 +202,9 @@ For EEG research to drive meaningful progress, it must be grounded in current th
 
 Recent years have seen an increasing emphasis on ever-larger datasets ([Frégnac, 2017](references.md#Fregnac2017)) with insufficient attention to the theoretical underpinnings that might explain brain activity and its emergent properties ([Borsboom et al., 2021](references.md#Borsboom2021); [Eronen & Bringmann, 2021](references.md#Eronen2021); [Gerstner et al., 2012](references.md#Gerstner2012)). 
 
-From a philosophical or epistemological standpoint, it is vital to recognize the limits of any single perspective. A purely data-driven understanding of neuroscience—particularly one focused on individual-brain analysis—can be limited in scope (Forest 2016). We therefore advocate for cultivating strong theoretical neuroscience foundations and for interdisciplinary exchanges that draw insights from fields such as philosophy, anthropology, psychology, the arts, and the humanities. These cross-pollinations could yield innovative frameworks that enrich our interpretations of EEG data.
+From a philosophical or epistemological standpoint, it is vital to recognize the limits of any single perspective, emphasizing instead frameworks that integrate dynamic, second-person interaction as central to cognition ([Hinrichs et al., 2025](references.md#Hinrichs2025)). A purely data-driven understanding of neuroscience—particularly one focused on individual-brain analysis—can be limited in scope (Forest, 2016). We therefore advocate for cultivating strong theoretical neuroscience foundations and for interdisciplinary exchanges that draw insights from fields such as philosophy, anthropology, psychology, the arts, and the humanities. These cross-pollinations could yield innovative frameworks that enrich our uses and interpretations of EEG data.
 
-In addition, the considerations outlined here link closely with our broader calls for epistemological rigor (see also Section 3). Effective science requires not just the “how” of sound methods and robust protocols, but also the “why”: the political, social, and ethical relevance behind our research questions.
+In addition, the considerations outlined here link closely with our broader calls for epistemological rigor (see also Section 3 - Responsibility). Effective science requires the “how” of sound methods and robust protocols, and the “why”: the political, social, and ethical relevance behind our research questions.
 
 By grounding EEG research in a well-articulated theoretical framework and seeking contributions from diverse disciplines, we can enhance the explanatory power of our findings, enrich interpretation, and promote more meaningful progress in understanding the human brain.
 
@@ -237,7 +237,7 @@ I commit to balancing theory-driven and data-driven approaches in my research. I
 /// html | li
 
     <input type='checkbox' checked name="pledge_1_4_4" class="data-input" />
-    reading synthesis texts from other disciplines (e.g., philosophy, anthropology, history, political science). This is a worthwhile investment, helping align my research objectives with societal realities.  
+    reading synthesis texts from other disciplines (e.g., philosophy, anthropology, history, political science). This investment is worthwhile, helping align my research objectives with societal realities.  
 ///
 /// html | li
 

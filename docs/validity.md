@@ -195,10 +195,12 @@ I commit to supporting open scientific practices to promote transparency, collab
 
 ### Interpretable and theoretically well-grounded research
 
+For EEG research to drive meaningful progress, it must be grounded in current theories and integrate insights from multiple disciplines. This is especially crucial as AI tools and models become increasingly prominent in the field.
+
 /// details | 1.4. Theory-driven and data-driven research
     type: info 
 
-Recent years have seen an increasing emphasis on ever-larger datasets with insufficient attention to the theoretical underpinnings that might explain brain activity and its emergent properties ([Borsboom et al., 2021](references.md#Borsboom2021); [Eronen & Bringmann, 2021](references.md#Eronen2021); [Gerstner et al., 2012](references.md#Gerstner2012)). 
+Recent years have seen an increasing emphasis on ever-larger datasets ([Frégnac, 2017](references.md#Eronen2021)) with insufficient attention to the theoretical underpinnings that might explain brain activity and its emergent properties ([Borsboom et al., 2021](references.md#Borsboom2021); [Eronen & Bringmann, 2021](references.md#Eronen2021); [Gerstner et al., 2012](references.md#Gerstner2012)). 
 
 From a philosophical or epistemological standpoint, it is vital to recognize the limits of any single perspective. A purely data-driven understanding of neuroscience—particularly one focused on individual-brain analysis—can be limited in scope (Forest 2016). We therefore advocate for cultivating strong theoretical neuroscience foundations and for interdisciplinary exchanges that draw insights from fields such as philosophy, anthropology, psychology, the arts, and the humanities. These cross-pollinations could yield innovative frameworks that enrich our interpretations of EEG data.
 

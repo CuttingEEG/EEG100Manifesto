@@ -61,6 +61,8 @@ If you'd like to see the living reference list for the EEG Manifesto please go t
 
 - [Forest, D. (2022). Neuropromesses. Ithaque.](https://hal.science/hal-03695472){ #Forest2022 }
 
+- [Frégnac, Y. (2017). Big data and the industrialization of neuroscience: A safe roadmap for understanding the brain? Science, 358(6362), 470–477.](https://doi.org/10.1126/science.aan8866){ #Frégnac2017 }
+
 - Gerstner, W., Sprekeler, H., & Deco, G. (2012). Theory and Simulation in Neuroscience. *Science*, *338*(6103), 60–65.[](){ #Gerstner2012 }  
 
 - Girolamo, T., Parker, T. C., & Eigsti, I.-M. (2022). Incorporating Dis/ability Studies and Critical Race Theory to combat systematic exclusion of Black, Indigenous, and People of Color in clinical neuroscience. *Frontiers in Neuroscience*, *16*, 988092\.[](){ #Girolamo2022 }

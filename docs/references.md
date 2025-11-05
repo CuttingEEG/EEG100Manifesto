@@ -102,6 +102,10 @@ If you'd like to see the living reference list for the EEG Manifesto please go t
 - [Lakens, D., Mesquida, C., Rasti, S., & Ditroilo, M. (2024). The benefits of preregistration and Registered Reports. *Evidence-Based Toxicology*, *2*(1), 2376046\.](https://doi.org/10.1080/2833373X.2024.2376046){ #Lakens2024 }
 
 - [Lange, J., Massart, C., Mouraux, A., & Standaert, F.-X. (2018). Side-channel attacks against the human brain: The PIN code case study (extended version). *Brain Informatics*, *5*(2), 12\.](https://doi.org/10.1186/s40708-018-0090-1){ #Lange2018 }
+  
+- [Lannelongue, L., Grealey, J., & Inouye, M. (2021). Green Algorithms: Quantifying the Carbon Footprint of Computation. Advanced Science, 8(12), 2100707.](https://doi.org/10.1002/advs.202100707){ #Lannelongue2021 }
+
+- [Mariette, J., Blanchard, O., Berné, O., Aumont, O., Carrey, J., Ligozat, A., Lellouch, E., Roche, P.-E., Guennebaud, G., Thanwerdas, J., Bardou, P., Salin, G., Maigne, E., Servan, S., & Ben-Ari, T. (2022). An open-source tool to assess the carbon footprint of research. Environmental Research: Infrastructure and Sustainability, 2(3), 035008.](https://doi.org/10.1088/2634-4505/ac84a4){ #Mariette2022 }
 
 - [Marini, F., Lee, C., Wagner, J., Makeig, S., & Gola, M. (2019). A comparative evaluation of signal quality between a research-grade and a wireless dry-electrode mobile EEG system. *Journal of Neural Engineering*, *16*(5), 054001\.](https://doi.org/10.1088/1741-2552/ab21f2){ #Marini2019 }
 

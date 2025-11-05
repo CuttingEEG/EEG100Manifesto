@@ -74,6 +74,8 @@ If you'd like to see the living reference list for the EEG Manifesto please go t
 - [Henrich, J. (2020). *The WEIRDest People In The World: How The West Became Psychologically Peculiar And Particularly Prosperous*.](http://archive.org/details/the-weirdest-people-in-the-world-how-the-west-became-psychologically-peculiar){ #Henrich2020 }
 
 - [Hinrichs, H., Scholz, M., Baum, A. K., Kam, J. W. Y., Knight, R. T., & Heinze, H.-J. (2020). Comparison between a wireless dry electrode EEG system with a conventional wired wet electrode EEG system for clinical applications. *Scientific Reports*, *10*(1), 5218\.](https://doi.org/10.1038/s41598-020-62154-0){ #Hinrichs2020 }
+  
+- [Hinrichs, N., Albarracin, M., Bolis, D., Jiang, Y., Christov-Moore, L., & Schilbach, L. (manuscript). Geometric Hyperscanning of Affect under Active Inference.] (https://philpapers.org/rec/HINGHU){ #Hinrichs2025 }
 
 - [Höller, Y., Uhl, A., Bathke, A., Thomschewski, A., Butz, K., Nardone, R., Fell, J., & Trinka, E. (2017). Reliability of EEG Measures of Interaction: A Paradigm Shift Is Needed to Fight the Reproducibility Crisis. *Frontiers in Human Neuroscience*, *11*.](https://doi.org/10.3389/fnhum.2017.00441){ #Holler2017 }
 

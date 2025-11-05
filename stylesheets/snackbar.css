@@ -1,0 +1,37 @@
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  opacity: 0;
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 10px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  top: 10%; /* 10% from the top */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; 
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  opacity: 1; /* Fully visible */
+}
+
+/* Type-specific styles */
+#snackbar.success {
+    background-color: #4CAF50; /* Green */
+}
+
+#snackbar.error {
+    background-color: #f44336; /* Red */
+}
+
+#snackbar.info {
+    background-color: #2196F3; /* Blue - for general info */
+}

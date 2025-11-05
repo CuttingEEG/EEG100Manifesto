@@ -1,0 +1,48 @@
+#main-title {
+    margin-bottom: 0em;
+}
+
+#subtitle {
+    margin-top: 0em;
+    margin-bottom: 1.25em;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+}
+
+.md-social__link {
+    height: inherit;
+
+    svg {
+        max-height: 1rem;
+    }
+}
+
+ul.tasklist {
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+ul.tasklist li input[type="checkbox"] {
+    width: 1em;
+    margin: 0 0.3em 0.2em -1.4em;
+    vertical-align: bottom;
+}
+
+button {
+    background: revert;
+    border: revert;
+    padding: revert;
+}
+
+ul.tasklist > li {
+    margin-left: 2.25em !important;
+}
+
+p:has(input) {
+    margin-left: 1.25em;
+}
+
+p input {
+    margin-left: -1.5em;
+    vertical-align: middle;
+}

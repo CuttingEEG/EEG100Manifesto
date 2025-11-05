@@ -1,0 +1,25 @@
+.floating-controls {
+    position: fixed; /* Fixes the position relative to the viewport */
+    bottom: 20px;    /* 20px from the bottom */
+    z-index: 1000;   /* Ensures the buttons are above other content */
+    display: flex;   /* Uses flexbox for layout of the buttons within the container */
+    gap: 10px;       /* Adds space between the buttons */
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.floating-controls button {
+    /* Optional: Add some basic styling for the buttons themselves */
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.floating-controls button:hover {
+    background-color: #0056b3;
+}

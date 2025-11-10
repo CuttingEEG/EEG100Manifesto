@@ -14,6 +14,7 @@ GOOGLE_SHEET_ID = os.environ.get('GOOGLE_SHEET_ID')  # The ID from the sheet URL
 # Define columns to exclude (identifying information)
 EXCLUDED_COLUMNS = [
     'show_name',
+    'created_at',
     'first_name', 
     'last_name',
     'affiliation',
@@ -25,7 +26,6 @@ EXCLUDED_COLUMNS = [
 # Define identifier columns for long format
 IDENTIFIER_COLUMNS = [
     'id',
-    'created_at',
     'gender',
     'career_stage',
     'country_of_origin',

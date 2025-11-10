@@ -93,7 +93,7 @@ def export_to_google_sheets(data):
             try:
                 sheet.values().clear(
                     spreadsheetId=GOOGLE_SHEET_ID,
-                    range='Sheet1'
+                    range='SignatureData'
                 ).execute()
             except HttpError as clear_error:
                 print(f"Warning: Could not clear sheet (may be empty): {clear_error}")
@@ -104,7 +104,7 @@ def export_to_google_sheets(data):
             }
             result = sheet.values().update(
                 spreadsheetId=GOOGLE_SHEET_ID,
-                range='Sheet1!A1',
+                range='SignatureData!A1',
                 valueInputOption='RAW',
                 body=body
             ).execute()

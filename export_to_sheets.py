@@ -13,13 +13,24 @@ GOOGLE_SHEET_ID = os.environ.get('GOOGLE_SHEET_ID')  # The ID from the sheet URL
 
 # Define columns to exclude (identifying information)
 EXCLUDED_COLUMNS = [
-    'id',
+    'show_name',
     'first_name', 
     'last_name',
     'affiliation',
     'email',
     'orcid',
     'comment',  # May contain identifying information
+]
+
+# Define identifier columns for long format
+IDENTIFIER_COLUMNS = [
+    'id',
+    'created_at',
+    'gender',
+    'career_stage',
+    'country_of_origin',
+    'age',
+    'country_of_residence'
 ]
 
 def fetch_all_submissions():
@@ -58,6 +69,40 @@ def anonymize_data(data):
     print(f"Excluded columns: {', '.join(EXCLUDED_COLUMNS)}")
     
     return anonymized
+
+def convert_to_long_format(data):
+    """Convert wide format data to long format.
+    
+    Identifier columns will be repeated for each pledge column.
+    Each row will have: identifier columns + pledge_name + pledge_value
+    """
+    if not data:
+        return []
+    
+    long_data = []
+    
+    for row in data:
+        # Get all pledge columns from this row
+        pledge_columns = {k: v for k, v in row.items() if k.startswith('pledge_')}
+        
+        # Create a row for each pledge
+        for pledge_name, pledge_value in pledge_columns.items():
+            long_row = {}
+            
+            # Add identifier columns
+            for id_col in IDENTIFIER_COLUMNS:
+                long_row[id_col] = row.get(id_col)
+            
+            # Add pledge name and value
+            long_row['pledge'] = pledge_name
+            long_row['value'] = pledge_value
+            
+            long_data.append(long_row)
+    
+    print(f"Converted to long format: {len(long_data)} rows from {len(data)} records")
+    print(f"Each record has {len(long_data) // len(data) if data else 0} pledge entries")
+    
+    return long_data
 
 def export_to_google_sheets(data):
     """Export anonymized data to Google Sheets."""
@@ -134,8 +179,11 @@ def main():
     # Anonymize the data
     anonymized_data = anonymize_data(data)
     
+    # Convert to long format
+    long_format_data = convert_to_long_format(anonymized_data)
+    
     # Export to Google Sheets
-    export_to_google_sheets(anonymized_data)
+    export_to_google_sheets(long_format_data)
     
     print("-" * 60)
     print("Export process completed.")

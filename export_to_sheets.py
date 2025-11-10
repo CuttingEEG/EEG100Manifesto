@@ -89,12 +89,14 @@ def export_to_google_sheets(data):
             for row in data:
                 values.append([row.get(col) for col in headers])
             
-            # Clear existing data and write new data
-            # Clear the sheet first
-            sheet.values().clear(
-                spreadsheetId=GOOGLE_SHEET_ID,
-                range='Sheet1!A1:ZZ'
-            ).execute()
+            # Clear existing data first
+            try:
+                sheet.values().clear(
+                    spreadsheetId=GOOGLE_SHEET_ID,
+                    range='Sheet1'
+                ).execute()
+            except HttpError as clear_error:
+                print(f"Warning: Could not clear sheet (may be empty): {clear_error}")
             
             # Write the data
             body = {

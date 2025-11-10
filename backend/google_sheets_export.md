@@ -65,57 +65,26 @@ To add secrets in GitHub:
 - Click "New repository secret"
 - Add each secret
 
-### 6. Update GitHub Workflow (Optional)
+### 6. Activate the Export
 
-If you want to automate the export, add this job to `.github/workflows/build_docs.yml`:
+Once you've completed steps 1-5, the export will run automatically:
 
-```yaml
-  export_to_sheets:
-    name: Export Anonymized Data to Google Sheets
-    runs-on: ubuntu-latest
-    needs: build_and_deploy  # Run after the main build
-    
-    env:
-      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-      GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
-      GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-    
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
-      
-      - name: "Set up Python"
-        uses: actions/setup-python@v5
-        with:
-          python-version-file: "pyproject.toml"
-      
-      - name: Install the project
-        run: uv sync --locked --all-extras --dev
-      
-      - name: Export to Google Sheets
-        run: uv run python export_to_sheets.py
-```
+**The script runs in GitHub Actions** - you don't need a local copy or to install anything on your computer. When you merge this branch to main:
 
-## Manual Execution
+1. The workflow updates the lock file to include the new Google Sheets dependencies
+2. Installs them automatically in the GitHub Actions runner
+3. Runs the export script daily (along with the website build)
 
-To run the export manually:
+That's it! The export happens automatically in the cloud.
 
-```bash
-# Set environment variables
-export SUPABASE_URL="your-supabase-url"
-export SUPABASE_SERVICE_ROLE_KEY="your-service-role-key"
-export GOOGLE_SHEETS_CREDENTIALS='{"type":"service_account",...}'  # Full JSON
-export GOOGLE_SHEET_ID="your-sheet-id"
+### Triggering the Export Manually
 
-# Install dependencies
-uv sync
-
-# Run the export
-uv run python export_to_sheets.py
-```
+You can also trigger the workflow manually from GitHub:
+1. Go to your repository on GitHub
+2. Click "Actions" tab
+3. Select the workflow "Build and Deploy EEG101 Community Framework site with Dynamic Data"
+4. Click "Run workflow" button
+5. Select the branch and click "Run workflow"
 
 ## Data Privacy
 

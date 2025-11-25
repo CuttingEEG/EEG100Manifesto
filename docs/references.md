@@ -137,8 +137,6 @@ If you'd like to see the living reference list for the EEG Community Framework p
 
 - [Nosek, B. A., Spies, J. R., & Motyl, M. (2012). Scientific Utopia II. Restructuring Incentives and Practices to Promote Truth Over Publishability. *Perspectives on Psychological Science*, *7*(6), 615–631.](https://doi.org/10.1177/1745691612459058){ #Nosek2012 }
 
-- [Onciul, R., Tataru, C.-I., Dumitru, A. V., Crivoi, C., Serban, M., Covache-Busuioc, R.-A., Radoi, M. P., & Toader, C. (2025). Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications. *Journal of Clinical Medicine*, *14*(2), 550\.](https://doi.org/10.3390/jcm14020550){ #Onciul2025 }
-
 - [Parada, F. J., Grasso-Cladera, A., Rossi, A., Soto-Icaza, P., Arenas-Pérez, M., & Errázuriz, M. C. (2024). Applied human neuroscience: Fostering and designing inclusive environments with the 3E-Cognition perspective. *The European Journal of Neuroscience*, *60*(3), 4148–4168.](https://doi.org/10.1111/ejn.16463){ #Parada2024 }
 
 - [Parker, T. C., & Ricard, J. A. (2022). Structural racism in neuroimaging: Perspectives and solutions. *The Lancet Psychiatry*, *9*(5), e22.](https://doi.org/10.1016/S2215-0366(22)00079-7){ #Parker2022 }
@@ -178,8 +176,6 @@ If you'd like to see the living reference list for the EEG Community Framework p
 - [Souter, N. E., Bhagwat, N., Racey, C., Wilkinson, R., Duncan, N. W., Samuel, G., Lannelongue, L., Selvan, R., & Rae, C. L. (2024). Measuring and reducing the carbon footprint of fMRI preprocessing in fMRIPrep. Human Brain Mapping, 45(12), e70003.](https://doi.org/10.1002/hbm.70003){ #Souter2024 }
 
 - [Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing Transparency Through a Multiverse Analysis. *Perspectives on Psychological Science*, *11*(5), 702–712.](https://doi.org/10.1177/1745691616658637){ #Steegen2016 }
-
-- [Surianarayanan, C., Lawrence, J. J., Chelliah, P. R., Prakash, E., & Hewage, C. (2023). Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders-A Scoping Review. *Sensors (Basel, Switzerland)*, *23*(6), 3062\.](https://doi.org/10.3390/s23063062){ #Surianarayanan2023 }
 
 - [Szanto, T. (2016). Collaborative Irrationality, Akrasia, and Groupthink: Social Disruptions of Emotion Regulation. *Frontiers in Psychology*, *7*, 2002\.](https://doi.org/10.3389/fpsyg.2016.02002){ #Szanto2016 }
 

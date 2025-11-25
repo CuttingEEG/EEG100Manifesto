@@ -163,9 +163,11 @@ If you'd like to see the living reference list for the EEG Community Framework p
 
 - [Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). *“Why Should I Trust You?”: Explaining the Predictions of Any Classifier* (arXiv:1602.04938). arXiv.](https://doi.org/10.48550/arXiv.1602.04938){ #Ribeiro2016 }
 
-- Rosenfeld, J. P. (2005). “Brain fingerprinting”: A critical analysis. *The Scientific Review of Mental Health Practice: Objective Investigations of Controversial and Unorthodox Claims in Clinical Psychology, Psychiatry, and Social Work*, *4*(1), 20–37.[](){ #Rosenfeld2005 }
+- [Rosenfeld, J. P. (2005). “Brain fingerprinting”: A critical analysis. *The Scientific Review of Mental Health Practice: Objective Investigations of Controversial and Unorthodox Claims in Clinical Psychology, Psychiatry, and Social Work*, *4*(1), 20–37.](https://psycnet.apa.org/record/2006-04004-004){ #Rosenfeld2005 }
 
 - [Schofield, H., Hill, R. M., Feys, O., Holmes, N., Osborne, J., Doyle, C., Bobela, D., Corvilain, P., Wens, V., Rier, L., Bowtell, R., Ferez, M., Mullinger, K. J., Coleman, S., Rhodes, N., Rea, M., Tanner, Z., Boto, E., de Tiège, X., … Brookes, M. J. (2024). A novel, robust, and portable platform for magnetoencephalography using optically-pumped magnetometers. *Imaging Neuroscience*, *2*, 1–22.](https://doi.org/10.1162/imag\_a\_00283){ #Schofield2024 }
+
+- [Schönbrodt, F., Maier, M., Heene, M., & Zehetleitner, M. (2015). Voluntary commitment to research transparency. Commitment to Research Transparency.](http://www.researchtransparency.org/){ #Shönbrodt2015 }
 
 - [Schroeder, D., Chatfield, K., Muthuswamy, V., & Kumar, N. K. (2021). Ethics Dumping – How not to do research in resource-poor settings. *Journal of Academics Stand Against Poverty*, *1*(1), Article 1\.](https://doi.org/10.5281/zenodo.8089799){ #Schroeder2021 }
 

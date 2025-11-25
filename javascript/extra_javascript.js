@@ -122,12 +122,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const externalLinks = document.querySelectorAll('a[href^="http"], a[href^="https"]');
         
         externalLinks.forEach(function(link) {
-            // Skip links in navigation areas
-            const isInNav = link.closest('nav') || 
-                           link.closest('.md-header') || 
-                           link.closest('.md-tabs') || 
+            // Skip links in navigation areas - be more specific based on actual HTML structure
+            const isInNav = link.closest('.md-header') || 
                            link.closest('.md-nav') ||
-                           link.closest('[data-md-component="navigation"]');
+                           link.closest('.md-sidebar') ||
+                           link.closest('.md-footer') ||
+                           link.closest('[data-md-component="header"]') ||
+                           link.closest('[data-md-component="navigation"]') ||
+                           link.closest('[data-md-component="sidebar"]') ||
+                           link.closest('[data-md-type="navigation"]');
             
             // Only add target="_blank" if it doesn't already have a target attribute and not in navigation
             if (!link.hasAttribute('target') && !isInNav) {

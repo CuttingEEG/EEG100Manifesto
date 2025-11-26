@@ -140,3 +140,75 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const refLinks = document.querySelectorAll('a[href*="references"]');
+    if (refLinks.length === 0) return;
+
+    let refUrl = refLinks[0].getAttribute('href').split('#')[0];
+    
+    fetch(refUrl)
+        .then(response => response.text())
+        .then(html => {
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, "text/html");
+            const refMap = {};
+            
+            const elementsWithIds = doc.querySelectorAll('[id]');
+            elementsWithIds.forEach(el => {
+                refMap[el.id] = el.innerHTML;
+            });
+            
+            setupTooltips(refLinks, refMap);
+        })
+        .catch(err => console.error("Failed to load references for tooltips", err));
+});
+
+function setupTooltips(links, refMap) {
+    const tooltip = document.createElement('div');
+    tooltip.className = 'reference-tooltip';
+    tooltip.style.display = 'none';
+    tooltip.style.position = 'absolute';
+    document.body.appendChild(tooltip);
+    
+    links.forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href.includes('#')) return;
+        const id = href.split('#')[1];
+        
+        if (refMap[id]) {
+            link.addEventListener('mouseenter', (e) => {
+                tooltip.innerHTML = refMap[id];
+                tooltip.style.display = 'block';
+                positionTooltip(e, tooltip);
+            });
+            
+            link.addEventListener('mousemove', (e) => {
+                positionTooltip(e, tooltip);
+            });
+            
+            link.addEventListener('mouseleave', () => {
+                tooltip.style.display = 'none';
+            });
+        }
+    });
+}
+
+function positionTooltip(e, tooltip) {
+    const x = e.pageX + 15;
+    const y = e.pageY + 15;
+    
+    // Basic boundary check
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const bodyRect = document.body.getBoundingClientRect();
+    
+    let finalX = x;
+    let finalY = y;
+    
+    if (x + tooltipRect.width > bodyRect.width) {
+        finalX = e.pageX - tooltipRect.width - 15;
+    }
+    
+    tooltip.style.left = finalX + 'px';
+    tooltip.style.top = finalY + 'px';
+}

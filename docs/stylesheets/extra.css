@@ -46,3 +46,16 @@ p input {
     margin-left: -1.5em;
     vertical-align: middle;
 }
+
+.reference-tooltip {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    border: 1px solid var(--md-default-fg-color--light);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    max-width: 400px;
+    font-size: 0.8rem;
+    pointer-events: none;
+    z-index: 1000;
+}

@@ -16,3 +16,5 @@ __pycache__/
 # Virtual environments
 .venv/
 venv/
+/manifesto.docx
+*.~lock.*\#

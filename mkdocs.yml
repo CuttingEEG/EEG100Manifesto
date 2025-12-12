@@ -1,10 +1,10 @@
 site_name: EEG101 Community Framework
 nav:
-  - Community Framework: index.md
-  - signatories.md
-  - contributors.md
-  - glossary.md
-  - references.md
+  - Home: index.md
+  - Signatories: signatories.md
+  - Contributors: contributors.md
+  - Glossary: glossary.md
+  - References: references.md
 not_in_nav: |
   introduction.md
   validity.md
